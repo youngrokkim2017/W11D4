@@ -10,6 +10,9 @@ export default entitiesReducer.
 import { combineReducers } from "redux";
 import usersReducer from "./users_reducer";
 
+//phase 5
+import benchesReducer from "./benches_reducer";
+
 export const entitiesReducer = combineReducers({
     users: usersReducer
 });

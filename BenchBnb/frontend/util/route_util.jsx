@@ -20,5 +20,5 @@ export const AuthRoute = withRouter(
     connect(
         mapStateToProps,
         null
-    )(Auth)
+    )(Auth)\
 );
